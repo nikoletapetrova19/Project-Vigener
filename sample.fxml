@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="416.0" prefWidth="548.0">
+            <children>
+                <Button fx:id="btn2" layoutX="318.0" layoutY="259.0" mnemonicParsing="false" onAction="#Button2Action" text="Decrypt" />
+                <Button fx:id="btn3" layoutX="117.0" layoutY="139.0" mnemonicParsing="false" onAction="#Button3Action" prefHeight="25.0" prefWidth="57.0" text="File" />
+                <Button fx:id="btn1" layoutX="118.0" layoutY="259.0" mnemonicParsing="false" onAction="#Button1Action" text="Encrypt" />
+                <TextArea fx:id="txtarea" layoutX="240.0" layoutY="132.0" prefHeight="25.0" prefWidth="136.0" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>
